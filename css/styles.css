@@ -733,6 +733,8 @@ ul, li {
   width: 528px;
   background-color: var(--white-color);
 
+  padding: 40px;
+
   transform: translate(-50%, -50%) scale(1);
   transition: transform 250ms var(--timing-function);
 }
@@ -770,9 +772,6 @@ ul, li {
   fill: var(--accent-color);
 }
 
-.form {
-  padding: 40px;
-}
 .form-title {
   font-weight: 700;
   font-size: 20px;
@@ -882,6 +881,10 @@ ul, li {
   background-image: url(../images/icon-check.svg);
   border-color: transparent;
   background-repeat: no-repeat;
+}
+
+.form-agreement {
+  color: var(--accent-color);
 }
 
 .form-button {
